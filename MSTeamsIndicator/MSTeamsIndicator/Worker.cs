@@ -17,7 +17,6 @@
 }*/
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
-using NAudio.CoreAudioApi;
 using System;
 using System.Data;
 using System.Diagnostics;
