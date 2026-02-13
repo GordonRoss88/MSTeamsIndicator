@@ -3,6 +3,8 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
 
+#!MSTeamsIndicatorInstaller.msi
+
 # User-specific files
 *.rsuser
 *.suo
@@ -412,7 +414,7 @@ FodyWeavers.xsd
 
 # Windows Installer files from build outputs
 *.cab
-*.msi
+#*.msi
 *.msix
 *.msm
 *.msp

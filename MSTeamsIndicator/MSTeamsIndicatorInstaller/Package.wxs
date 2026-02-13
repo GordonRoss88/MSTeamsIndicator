@@ -5,7 +5,7 @@
    <Package
      Name="MSTeamsIndicator"
      Manufacturer="Crorosys"
-     Version="1.0.9"
+     Version="1.1.0"
      UpgradeCode="639788cd-1eee-45d5-9a8d-1df75017b321">
 
       <MajorUpgrade DowngradeErrorMessage="A newer version is already installed." />
@@ -20,8 +20,8 @@
             <Component Id="ServiceComponent" Guid="*">
 
                <!-- Service executable -->
-               <File Source="..\MSTeamsIndicator\bin\Release\net10.0\Publish\win-x64\MSTeamsIndicator.exe" KeyPath="yes" />
-               <File Source="..\MSTeamsIndicator\bin\Release\net10.0\Publish\win-x64\appsettings.json" />
+               <File Source="..\MSTeamsIndicator\bin\Release\net10.0\Publish\MSTeamsIndicator.exe" KeyPath="yes" />
+               <File Source="..\MSTeamsIndicator\bin\Release\net10.0\Publish\appsettings.json" />
                
 
                <!-- Install Windows Service -->
